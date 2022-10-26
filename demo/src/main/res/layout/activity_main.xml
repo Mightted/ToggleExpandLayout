@@ -121,7 +121,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="16dp"
-                        style="@style/MD" />
+                        style="@style/SwitchButtonMD" />
                 </RelativeLayout>
             </LinearLayout>
         </com.fenjuly.mylibrary.ToggleExpandLayout>
@@ -233,7 +233,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="16dp"
-                        style="@style/MD" />
+                        style="@style/SwitchButtonMD" />
                 </RelativeLayout>
             </LinearLayout>
         </com.fenjuly.mylibrary.ToggleExpandLayout>
@@ -338,14 +338,15 @@
                         android:layout_height="wrap_content"
                         android:text="Use network provide time"
                         android:textColor="#cccccc"/>
+
                     <com.kyleduo.switchbutton.SwitchButton
                         android:id="@+id/switch_button3"
-                        android:layout_alignParentRight="true"
-                        android:layout_marginRight="10dp"
+                        style="@style/SwitchButtonMD"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:padding="16dp"
-                        style="@style/MD" />
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="10dp"
+                        android:padding="16dp" />
                 </RelativeLayout>
             </LinearLayout>
         </com.fenjuly.mylibrary.ToggleExpandLayout>

@@ -52,7 +52,7 @@ public class DropDownLayout extends FrameLayout {
             }
             child.layout(left, curY, left + width, curY + layoutHeight);
             curY = curY + height;
-            if (!isFirstOnLayout) {
+            if (isFirstOnLayout) {
                 init(child, i, getChildCount());
             }
         }

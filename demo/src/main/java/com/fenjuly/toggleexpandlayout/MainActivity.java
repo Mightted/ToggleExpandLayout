@@ -2,16 +2,17 @@ package com.fenjuly.toggleexpandlayout;
 
 import android.annotation.TargetApi;
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.CompoundButton;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.fenjuly.mylibrary.ToggleExpandLayout;
 import com.kyleduo.switchbutton.SwitchButton;
 
 
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends AppCompatActivity {
 
     @Override
     @TargetApi(21)
